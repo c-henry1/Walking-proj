@@ -266,18 +266,14 @@ filter: grayscale(100%);
 .image-wrap :nth-child(3) { order: 4; }
         .box :nth-child(4) { order: 3; }
     
-.tour-container {
-    position: fixed;
-    width: 100%;
-    top: 44%;
-}
+
 
 
 
     
 .dates-table {
     justify-content: center;
-    padding: 80px 10px;
+    padding: 50px 10px;
     width: 90%;
 }
 
@@ -330,13 +326,13 @@ filter: grayscale(100%);
     width: 65%;
     flex-wrap: wrap;
     justify-content: flex-end;
-    padding-right:0px 5px 5px 0px;
+    padding-right: 0px 5px 5px 0px;
     
     }
 
     .dates-table {
         justify-content: center;
-        padding: 80px 5px 5px 5px;
+        padding: 10px 5px 5px 5px;
         width: 100%;
     }
     
