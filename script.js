@@ -31,17 +31,24 @@ var slideIndex1 = 0;
   }
 
   
-
-  const navSlide = () => {
-      const tour = document.querySelector('#tour');
-      const nav = document.querySelector('.dates-container');
-
-    tour.addEventListener('click',() =>{
+    const tour = document.querySelector('#tour');
+    const nav = document.querySelector('.dates-container');
+    const navActive = document.querySelector('.dates-container-active');
+  
+    const navSlide = () => {
+        tour.addEventListener('click',() =>{
         nav.classList.toggle('dates-container-active');
         })
+
+    
     }
 
   navSlide();
+
+
+
+
+
 
 
   const textChange = () => {
@@ -61,47 +68,5 @@ var slideIndex1 = 0;
   
 
 
-  //document.getElementById('tour').onclick = function tourDiv () {
-    //  document.getElementById('dates-container').style.display = "flex";
-      //document.getElementById('tour').style.display = "none"
-    //}
-
-
-    //document.getElementsById('close').onclick = function closeTour () {
-      //  document.getElementById('dates-container').style.display = "none";
-        //document.getElementById('tour').style.display = "flex"
-      
-   
-
-    //  document.getElementsById('manufa').onclick = function closeTour () {
-      //  document.getElementById('dates-container').style.display = "none";
-        //document.getElementById('tour').style.display = "flex"
-      
   
-    
-
-
-//let tourDates = document.querySelector("dates-container")
-//let datesButton = document.querySelector("#tour")
-
-//datesButton.addEventListener("click", () => {
-
-  //  showDates = !showDates
-    //if (showDates === true) {
- //       tourDates.style.display = "flex"
-   // } else {
-     //   tourDates.style.display = "none"
-    //}
-
-    //datesButton.innerText = buttonStates[datesButton.innerText]
-
-
-//})
-
-//let showDates = false
-
-//let buttonStates = {
-  //  "/ Tour /" : "/ X /",
-    //"/ X /" : "/ Tour /"
-//}
   
