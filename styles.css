@@ -159,6 +159,7 @@ filter: grayscale(100%);
     font-family: 'Roboto';
     padding: 3px;
     background-color: transparent;
+    cursor: pointer;
 }
 
   .footer-link:hover {
@@ -230,7 +231,8 @@ filter: grayscale(100%);
 
 .ticket {
     text-align: right;
-    display: inline-block
+    display: inline-block;
+    cursor: pointer;
 }
 
 .ticket:hover {
